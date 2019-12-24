@@ -5,7 +5,7 @@ public class Client {
     public static void main(String[] args){
         System.out.println("connecting");
         ZContext connect = new ZContext();
-        ZMQ.Socket.class
+        ZMQ.Socket socket = new 
 
     }
 
