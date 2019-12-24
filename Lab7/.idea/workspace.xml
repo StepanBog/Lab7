@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be4ba942-c4e8-4ce3-8bb7-ecaba5c5a973" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MesToServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577193708821</updated>
-      <workItem from="1577193713092" duration="618000" />
+      <workItem from="1577193713092" duration="1032000" />
     </task>
     <servers />
   </component>
