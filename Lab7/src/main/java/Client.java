@@ -17,7 +17,7 @@ public class Client {
             Scanner in = new Scanner(System.in);
             String mes = in.nextLine();
             MesToServer mesToServ = new MesToServer(mes);
-            
+
         } catch (ZMQException ex){
             ex.printStackTrace();
         }
