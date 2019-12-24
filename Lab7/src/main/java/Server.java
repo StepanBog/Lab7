@@ -1,3 +1,6 @@
 public class Server {
-    p
+    public static void main(String[] args){
+        
+    }
+
 }
