@@ -16,7 +16,7 @@ public class Client {
             socket.connect("tcp://localhost:5555");
             Scanner in = new Scanner(System.in);
             String mes = in.nextLine();
-            MesToServer mesToServ = new MesToServer(mes);
+            ZMQ
 
         } catch (ZMQException ex){
             ex.printStackTrace();
