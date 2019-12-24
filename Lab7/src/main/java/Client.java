@@ -1,7 +1,4 @@
-import org.zeromq.SocketType;
-import org.zeromq.ZContext;
-import org.zeromq.ZMQ;
-import org.zeromq.ZMQException;
+import org.zeromq.*;
 
 import java.util.Scanner;
 
@@ -16,8 +13,11 @@ public class Client {
             socket.connect("tcp://localhost:5555");
             Scanner in = new Scanner(System.in);
             String mes = in.nextLine();
-            ZMQ
-
+            ZMsg zmesSend = new ZMsg();
+            ZMsg zmesAns = new ZMsg();
+            zmesSend.add(mes);
+            zmesSend.send(socket);
+            zmesAns.
         } catch (ZMQException ex){
             ex.printStackTrace();
         }
