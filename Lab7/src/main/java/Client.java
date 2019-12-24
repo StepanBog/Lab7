@@ -7,6 +7,7 @@ public class Client {
         System.out.println("connecting");
         ZContext context = new ZContext();
         ZMQ.Socket socket = new context.createSocket(SocketType.REP);
+        
 
 
     }
