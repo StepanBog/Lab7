@@ -1,6 +1,9 @@
+import org.zeromq.ZContext;
+
 public class Client {
     public static void main(String[] args){
-        ZConnect connect = new
+        ZContext connect = new ZContext();
+        
 
     }
 
