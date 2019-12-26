@@ -16,6 +16,7 @@ public class Server {
     }
 
     private void handle() {
+        ZMQ.Poller items = zcon.poller(2);
     }
 
     private void bind() {
