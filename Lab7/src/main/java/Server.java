@@ -28,8 +28,23 @@ public class Server {
                 ZMsg msg = ZMsg.recvMsg(frontend);
                 if (msg != null)
                     handleClientPollin(msg);
+                else
+                    break;
+            }
+            if (items.pollin(1)){
+                ZMsg msg = ZMsg.recvMsg(backend);
+                if (msg != null)
+                    handleDealerPollin(msg);
+                else
+                    break;;
             }
         }
+    }
+
+    private void handleDealerPollin(ZMsg msg) {
+    }
+
+    private void handleClientPollin(ZMsg msg) {
     }
 
     private void bind() {
