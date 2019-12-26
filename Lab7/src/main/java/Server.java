@@ -19,7 +19,8 @@ public class Server {
         ZMQ.Poller items = zcon.createPoller(2);
         items.register(frontend, ZMQ.Poller.POLLIN);
         items.register(backend, ZMQ.Poller.POLLIN);
-        
+        boolean more = false;
+        byte[] mes;
     }
 
     private void bind() {
