@@ -9,7 +9,7 @@ public class Client {
         System.out.println("connecting");
         try {
             context = new ZContext();
-            socket = new context.createSocket(SocketType.REQ);
+            socket = context.createSocket(SocketType.REQ);
             socket.connect("tcp://localhost:5555");
             Scanner in = new Scanner(System.in);
             String mes = in.nextLine();
