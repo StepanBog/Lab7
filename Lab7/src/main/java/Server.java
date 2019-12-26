@@ -4,6 +4,7 @@ import org.zeromq.ZMQ;
 import org.zeromq.ZMsg;
 
 public class Server {
+    private static final String SPACE = " ";
     private ZMQ.Socket frontend;
     private ZMQ.Socket backend;
     private ZContext zcon;
@@ -45,6 +46,27 @@ public class Server {
     }
 
     private void handleClientPollin(ZMsg msg) {
+        String[] data = msg.getLast().toString().split(SPACE);
+        switch (data[0]){
+            case "PUT" : recievePUT(data,msg);
+            case "GET" : recieveGET(data,msg);
+            default : {
+                error(frontend,"error",msg);
+            }
+        }
+    }
+
+    private void recieveGET(String[] data, ZMsg msg) {
+    }
+
+    private void error(ZMQ.Socket socket, String error, ZMsg msg) {
+        ZMsg e = new ZMsg();
+        e.add(msg.getFirst() + " " + error);
+        e.send(socket);
+    }
+
+    private void recievePUT(String[] data, ZMsg msg) {
+        
     }
 
     private void bind() {
