@@ -25,6 +25,6 @@ public class Commutator {
     }
 
     public boolean intersect(String value){
-        return Integer.parseInt(leftBound) <=
+        return Integer.parseInt(leftBound) <= Integer.parseInt(value) && Integer.parseInt(value) >= Integer.parseInt(rightBound);
     }
 }
