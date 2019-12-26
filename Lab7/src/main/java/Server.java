@@ -15,7 +15,7 @@ public class Server {
     }
 
     private void bind() {
-        frontend.bind();
+        frontend.bind("tcp://localhost:5555";
         backend.bind()
     }
 
