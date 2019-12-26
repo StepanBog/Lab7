@@ -21,6 +21,9 @@ public class Server {
         items.register(backend, ZMQ.Poller.POLLIN);
         boolean more = false;
         byte[] mes;
+        while (!Thread.currentThread().isInterrupted()){
+            
+        }
     }
 
     private void bind() {
