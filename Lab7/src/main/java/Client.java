@@ -3,11 +3,13 @@ import org.zeromq.*;
 import java.util.Scanner;
 
 public class Client {
+    public static ZContext context;
+    private static ZMQ.Socket socket;
     public static void main(String[] args){
         System.out.println("connecting");
         try {
-            ZContext context = new ZContext();
-            ZMQ.Socket socket = new context.createSocket(SocketType.REP);
+            context = new ZContext();
+            socket = new context.createSocket(SocketType.REQ);
             socket.connect("tcp://localhost:5555");
             Scanner in = new Scanner(System.in);
             String mes = in.nextLine();
