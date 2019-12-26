@@ -3,11 +3,14 @@ import org.zeromq.ZContext;
 import org.zeromq.ZMQ;
 import org.zeromq.ZMsg;
 
+import java.util.HashMap;
+
 public class Server {
     private static final String SPACE = " ";
     private ZMQ.Socket frontend;
     private ZMQ.Socket backend;
     private ZContext zcon;
+    private HashMap<> commutator;
 
     public Server(ZContext zcon) {
         this.zcon = zcon;
