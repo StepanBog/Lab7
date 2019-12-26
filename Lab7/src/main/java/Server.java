@@ -12,6 +12,10 @@ public class Server {
         this.frontend = this.zcon.createSocket(SocketType.ROUTER);
         this.backend = this.zcon.createSocket(SocketType.ROUTER);
         this.bind();
+        this.handle();
+    }
+
+    private void handle() {
     }
 
     private void bind() {
