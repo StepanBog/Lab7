@@ -16,7 +16,10 @@ public class Server {
     }
 
     private void handle() {
-        ZMQ.Poller items = zcon.poller(2);
+        ZMQ.Poller items = zcon.createPoller(2);
+        items.register(frontend, ZMQ.Poller.POLLIN);
+        items.register(backend, ZMQ.Poller.POLLIN);
+        
     }
 
     private void bind() {
