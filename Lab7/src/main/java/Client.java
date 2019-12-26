@@ -3,7 +3,7 @@ import org.zeromq.*;
 import java.util.Scanner;
 
 public class Client {
-    public static ZContext context;
+    private static ZContext context;
     private static ZMQ.Socket socket;
     public static void main(String[] args){
         System.out.println("connecting");
