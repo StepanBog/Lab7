@@ -1,6 +1,7 @@
 import org.zeromq.SocketType;
 import org.zeromq.ZContext;
 import org.zeromq.ZMQ;
+import org.zeromq.ZMsg;
 
 public class Server {
     private ZMQ.Socket frontend;
@@ -22,7 +23,12 @@ public class Server {
         boolean more = false;
         byte[] mes;
         while (!Thread.currentThread().isInterrupted()){
-            
+            items.poll();
+            if (items.pollin(0)){
+                ZMsg msg = ZMsg.recvMsg(frontend);
+                if (msg != null)
+                    handleClientPollin(msg);
+            }
         }
     }
 
