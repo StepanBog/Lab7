@@ -1,7 +1,4 @@
-import org.zeromq.SocketType;
-import org.zeromq.ZContext;
-import org.zeromq.ZMQ;
-import org.zeromq.ZMsg;
+import org.zeromq.*;
 
 import java.util.HashMap;
 
@@ -10,7 +7,7 @@ public class Proxy{
     private ZMQ.Socket frontend;
     private ZMQ.Socket backend;
     private ZContext zcon;
-    private HashMap<> commutator;
+    private HashMap<ZFrame,Commutator> commutator;
 
     public Proxy(ZContext zcon) {
         this.zcon = zcon;
@@ -46,6 +43,7 @@ public class Proxy{
     }
 
     private void handleDealerPollin(ZMsg msg) {
+        
     }
 
     private void handleClientPollin(ZMsg msg) {
