@@ -47,8 +47,8 @@ public class Proxy{
         if (msg.getLast().toString().contains("I_AM_ALIVE"))
             if (!commutator.containsKey(msg.getFirst())){
                 Commutator com = new Commutator(data[1],data[2],System.currentTimeMillis());
-                ZFrame frame = msg.getFirst();
-                commutator.put(frame.duplicate())
+                ZFrame frame = msg.getLast();
+                commutator.put(
         }
     }
 
