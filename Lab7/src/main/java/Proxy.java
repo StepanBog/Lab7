@@ -45,8 +45,9 @@ public class Proxy{
     private void handleDealerPollin(ZMsg msg) {
         String[] data = msg.getLast().toString().split(SPACE);
         if (msg.getLast().toString().contains("I_AM_ALIVE"))
-            if (commutator.containsKey(msg.getFirst())){
-            Commutator com = new Commutator(data[1],data[2],System.currentTimeMillis());
+            if (!commutator.containsKey(msg.getFirst())){
+                Commutator com = new Commutator(data[1],data[2],System.currentTimeMillis());
+                ZFrame 
         }
     }
 
