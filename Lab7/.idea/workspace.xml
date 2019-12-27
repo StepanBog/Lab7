@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be4ba942-c4e8-4ce3-8bb7-ecaba5c5a973" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Proxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,7 @@
       <updated>1577193708821</updated>
       <workItem from="1577193713092" duration="1948000" />
       <workItem from="1577350781218" duration="3889000" />
-      <workItem from="1577467126871" duration="5599000" />
+      <workItem from="1577467126871" duration="5625000" />
     </task>
     <servers />
   </component>
@@ -168,12 +168,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Proxy.java</url>
-          <line>73</line>
+          <line>74</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Proxy.java</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
