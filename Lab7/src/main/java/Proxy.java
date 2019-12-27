@@ -43,7 +43,8 @@ public class Proxy{
     }
 
     private void handleDealerPollin(ZMsg msg) {
-        
+        String[] data = msg.getLast().toString().split(SPACE);
+        if (data)
     }
 
     private void handleClientPollin(ZMsg msg) {
