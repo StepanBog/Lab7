@@ -40,7 +40,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Cache">
+  <component name="RunManager" selected="Application.Proxy">
     <configuration name="Cache" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Cache" />
       <module name="Lab7" />
