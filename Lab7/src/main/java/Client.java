@@ -12,7 +12,7 @@ public class Client {
             socket = context.createSocket(SocketType.REQ);
             socket.connect("tcp://localhost:5555");
             Scanner in = new Scanner(System.in);
-            while (Thread.currentThread().isInterrupted()) {
+            while (true) {
                 String mes = in.nextLine();
                 ZMsg zmesSend = new ZMsg();
                 ZMsg zmesAns = new ZMsg();
