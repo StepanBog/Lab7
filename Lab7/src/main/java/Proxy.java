@@ -25,7 +25,7 @@ public class Proxy{
         long time = System.currentTimeMillis();
         while (!Thread.currentThread().isInterrupted()){
             items.poll();
-            if ((System.currentTimeMillis() -time > E))
+            if ((System.currentTimeMillis() -time > EPSILON_TIME))
             if (items.pollin(0)){
                 ZMsg msg = ZMsg.recvMsg(frontend);
                 if (msg != null)
