@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Cache {
     private static final String SPACE = " ";
+    private static final long EPSILON_TIME = 5000;
     private final ZContext zcon;
     private ZMQ.Socket worker;
     private int leftBound;
@@ -36,9 +37,16 @@ public class Cache {
     }
 
     private void handler() {
-        long time;
+        long time = System.currentTimeMillis();
         while (!Thread.currentThread().isInterrupted()){
-            i
+            items.poll();
+            if (System.currentTimeMillis() - time > EPSILON_TIME){
+                ZMsg msg = new ZMsg();
+                msg.add("I AM ALIVE " + leftBound + " " + rightBound);
+                msg.send(worker);
+            }
+            if(items.pollin(0))
+                handleDealer();
         }
     }
 
