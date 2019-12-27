@@ -22,7 +22,7 @@ public class Proxy{
         items.register(frontend, ZMQ.Poller.POLLIN);
         items.register(backend, ZMQ.Poller.POLLIN);
         boolean more = false;
-        long time = SuppressWar
+        long time = System.currentTimeMillis();
         while (!Thread.currentThread().isInterrupted()){
             items.poll();
             if ((System.currentTimeMillis() -time > ))
