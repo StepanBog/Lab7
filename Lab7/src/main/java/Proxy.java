@@ -77,7 +77,7 @@ public class Proxy{
     }
 
     private void recieveGET(String[] data, ZMsg msg) {
-        for (HashMap)
+        for (HashMap.Entry<ZFrame>)
     }
 
     private void error(ZMQ.Socket socket, String error, ZMsg msg) {
