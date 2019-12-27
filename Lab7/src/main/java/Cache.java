@@ -35,6 +35,13 @@ public class Cache {
     }
 
     private void handler() {
+        long time;
+        while (!Thread.currentThread().isInterrupted()){
+            i
+        }
+    }
+
+    private void handleDealer() {
         ZMsg msg = ZMsg.recvMsg(worker);
         ZFrame content = msg.getFirst();
         String[] data = content.toString().split(SPACE);
