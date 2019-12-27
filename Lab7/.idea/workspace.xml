@@ -40,7 +40,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Proxy">
     <configuration name="Cache" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Cache" />
       <module name="Lab7" />
@@ -112,22 +112,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1577464650680" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1577465448515">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1577465487965">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577465448515" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1577465448515">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577465487965" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1577465487964">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577465448515" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1577465448514">
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577465487964" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1577465487963">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577465448514" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1577465448515">
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577465487963" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1577465487964">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577465448515" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577465487964" />
     <state width="1807" height="260" key="GridCell.Tab.1.bottom" timestamp="1577465437150">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
