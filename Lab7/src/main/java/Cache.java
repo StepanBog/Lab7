@@ -35,7 +35,8 @@ public class Cache {
 
     private void handler() {
         ZMsg msg = ZMsg.recvMsg(worker);
-        ZFrame content
+        ZFrame content = msg.getFirst();
+
     }
 
     private void connect() {
