@@ -40,6 +40,6 @@ public class Cache {
 
     private void connect() {
         worker.connect("tcp://localhost:5559");
-        
+        ZMQ.Poller items =z
     }
 }
