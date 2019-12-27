@@ -30,9 +30,10 @@ public class Proxy{
         time = System.currentTimeMillis();
         while (!Thread.currentThread().isInterrupted()){
             items.poll(1);
-            if ((!commutator.isEmpty()) && (System.currentTimeMillis() -time > EPSILON_TIME))
+            if ((!commutator.isEmpty()) && (System.currentTimeMillis() -time > EPSILON_TIME)) {
                 deleteDead();
-            time = System.currentTimeMillis();
+                time = System.currentTimeMillis();
+            }
             if (items.pollin(0)){
                 ZMsg msg = ZMsg.recvMsg(frontend);
                 if (msg != null)
