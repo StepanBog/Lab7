@@ -91,6 +91,7 @@ public class Proxy{
                 ZMsg mes = msg.duplicate();
                 ZFrame cache = c.getKey().duplicate();
                 mes.addFirst(cache);
+                mes.send(backend);
             }
         }
     }
