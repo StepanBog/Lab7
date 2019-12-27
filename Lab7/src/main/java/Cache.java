@@ -9,7 +9,7 @@ public class Cache {
     private ZMQ.Socket worker;
     private int leftBound;
     private int rightBound;
-    private ZMQ.Poller  
+    private ZMQ.Poller items;
     private HashMap<Integer,String> cache;
 
     public Cache(ZContext zcon) {
