@@ -9,6 +9,7 @@ public class Cache {
     private ZMQ.Socket worker;
     private int leftBound;
     private int rightBound;
+    private ZMQ.Poller  
     private HashMap<Integer,String> cache;
 
     public Cache(ZContext zcon) {
@@ -60,7 +61,7 @@ public class Cache {
 
     private void connect() {
         worker.connect("tcp://localhost:5559");
-        ZMQ.Poller items = zcon.createPoller(1);
+        items = zcon.createPoller(1);
         items.register(worker, ZMQ.Poller.POLLIN);
     }
 }
