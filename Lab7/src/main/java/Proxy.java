@@ -22,9 +22,10 @@ public class Proxy{
         items.register(frontend, ZMQ.Poller.POLLIN);
         items.register(backend, ZMQ.Poller.POLLIN);
         boolean more = false;
-        byte[] mes;
+        long time = SuppressWar
         while (!Thread.currentThread().isInterrupted()){
             items.poll();
+            if ((System.currentTimeMillis() -time > ))
             if (items.pollin(0)){
                 ZMsg msg = ZMsg.recvMsg(frontend);
                 if (msg != null)
