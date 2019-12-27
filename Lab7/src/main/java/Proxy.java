@@ -90,7 +90,7 @@ public class Proxy{
             if (c.getValue().intersect(data[1])){
                 ZMsg mes = msg.duplicate();
                 ZFrame cache = c.getKey().duplicate();
-                mes.send()
+                mes.addFirst(cache);
             }
         }
     }
