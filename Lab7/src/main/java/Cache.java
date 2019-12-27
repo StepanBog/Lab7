@@ -46,8 +46,8 @@ public class Cache {
         }
         if (data[0].equals("PUT")){
             int pos = Integer.parseInt(data[1]);
-            int value = Integer.parseInt(data[2]);
-            cache.put(pos,value.);
+            int value = data[2];
+            cache.put(pos,value);
         }
     }
 
