@@ -39,6 +39,6 @@ public class Cache {
     }
 
     private void connect() {
-        worker.connect("tcp://")
+        worker.connect("tcp://localhost:5556")
     }
 }
