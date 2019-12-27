@@ -86,7 +86,7 @@ public class Proxy{
     }
 
     private void recievePUT(String[] data, ZMsg msg) {
-        
+        for ()
     }
 
     private void bind() {
