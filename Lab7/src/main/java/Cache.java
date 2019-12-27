@@ -17,7 +17,8 @@ public class Cache {
         cache = new HashMap<>();
         Scanner in = new Scanner(System.in);
         leftBound = in.nextInt();
-        rightBound = in.nextInt();
+        rightBound = in.nextInt(); i <= rightBound
+        for (int i = leftBound)
         worker = zcon.createSocket(SocketType.DEALER);
 
     }
