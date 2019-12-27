@@ -47,7 +47,6 @@ public class Proxy{
     }
 
     private void deleteDead() {
-        for (int i = 0 ; i < commutator.)
         commutator.remove()
     }
 
