@@ -48,7 +48,9 @@ public class Proxy{
             if (!commutator.containsKey(msg.getFirst())){
                 Commutator com = new Commutator(data[1],data[2],System.currentTimeMillis());
                 commutator.put(msg.getFirst(),com);
-        }
+            } else {
+                commutator.get(msg.getFirst())
+            }
     }
 
     private void handleClientPollin(ZMsg msg) {
