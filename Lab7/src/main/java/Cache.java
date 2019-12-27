@@ -17,8 +17,9 @@ public class Cache {
         cache = new HashMap<>();
         Scanner in = new Scanner(System.in);
         leftBound = in.nextInt();
-        rightBound = in.nextInt(); i <= rightBound
-        for (int i = leftBound)
+        rightBound = in.nextInt();
+        for (int i = leftBound; i <= rightBound; i++)
+            cache.put(i,Integer.toString(i));
         worker = zcon.createSocket(SocketType.DEALER);
 
     }
@@ -27,9 +28,17 @@ public class Cache {
         try{
             ZContext zcon = new ZContext();
             Cache cache = new Cache(zcon);
-
+            connect();
+            handler();
         } catch (Exception e){
             System.out.print(e.toString());
         }
+    }
+
+    private void handler() {
+    }
+
+    private void connect() {
+        worker.connect("tcp://")
     }
 }
