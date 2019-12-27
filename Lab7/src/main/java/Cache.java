@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class Cache {
+    private static final String SPACE = " ";
     private final ZContext zcon;
     private ZMQ.Socket worker;
     private int leftBound;
@@ -36,7 +37,13 @@ public class Cache {
     private void handler() {
         ZMsg msg = ZMsg.recvMsg(worker);
         ZFrame content = msg.getFirst();
+        String[] data = content.toString().split(SPACE);
+        if (data[0].equals("GET")){
+            int pos = data[1].to;
+        }
+        if (data[0].equals("PUT")){
 
+        }
     }
 
     private void connect() {
