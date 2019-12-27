@@ -15,7 +15,7 @@ public class Proxy{
         this.zcon = zcon;
         this.frontend = this.zcon.createSocket(SocketType.ROUTER);
         this.backend = this.zcon.createSocket(SocketType.ROUTER);
-
+        frontend.setHWM(0);
         commutator = new HashMap<>();
         this.bind();
         this.handle();
