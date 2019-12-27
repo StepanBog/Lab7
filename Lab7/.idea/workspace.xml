@@ -40,7 +40,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Proxy">
+  <component name="RunManager" selected="Application.Cache">
+    <configuration name="Cache" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Cache" />
+      <module name="Lab7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Client" />
       <module name="Lab7" />
@@ -58,6 +65,7 @@
     <list>
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Proxy" />
+      <item itemvalue="Application.Cache" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -84,7 +92,7 @@
       <updated>1577193708821</updated>
       <workItem from="1577193713092" duration="1948000" />
       <workItem from="1577350781218" duration="3889000" />
-      <workItem from="1577467126871" duration="4722000" />
+      <workItem from="1577467126871" duration="4737000" />
     </task>
     <servers />
   </component>
@@ -96,10 +104,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="214" width="800" height="677" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1577193734474" />
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577462683180">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577462698115">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577462683180" />
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577462698115" />
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577352997314">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
