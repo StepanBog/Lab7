@@ -16,11 +16,14 @@ public class Client {
                 String mes = in.nextLine();
                 ZMsg zmesSend = new ZMsg();
                 ZMsg zmesAns = new ZMsg();
-                if (mes.contains("PUT") || mes.contains("GET"))
-                zmesSend.add(mes);
-                zmesSend.send(socket);
-                ZMsg.recvMsg(socket);
-                System.out.print("IN:" + zmesAns.popString());
+                if (mes.contains("PUT") || mes.contains("GET")) {
+                    zmesSend.add(mes);
+                    zmesSend.send(socket);
+                    ZMsg.recvMsg(socket);
+                    System.out.print("IN:" + zmesAns.popString());
+                } else {
+                    System.out.println("error");
+                }
             }
         } catch (ZMQException ex){
             ex.printStackTrace();
