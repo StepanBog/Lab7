@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be4ba942-c4e8-4ce3-8bb7-ecaba5c5a973" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
-    </list>
+    <list default="true" id="be4ba942-c4e8-4ce3-8bb7-ecaba5c5a973" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +38,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Proxy">
     <configuration name="Cache" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Cache" />
       <module name="Lab7" />
@@ -92,7 +90,7 @@
       <updated>1577193708821</updated>
       <workItem from="1577193713092" duration="1948000" />
       <workItem from="1577350781218" duration="3889000" />
-      <workItem from="1577467126871" duration="5221000" />
+      <workItem from="1577467126871" duration="5512000" />
     </task>
     <servers />
   </component>
@@ -112,38 +110,38 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1577352997314" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1577463392741">
+    <state width="1807" height="344" key="GridCell.Tab.0.bottom" timestamp="1577463435480">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577463392741" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1577463392741">
+    <state width="1807" height="344" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577463435480" />
+    <state width="1807" height="344" key="GridCell.Tab.0.center" timestamp="1577463435478">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577463392741" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1577463392741">
+    <state width="1807" height="344" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577463435478" />
+    <state width="1807" height="344" key="GridCell.Tab.0.left" timestamp="1577463435477">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577463392741" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1577463392741">
+    <state width="1807" height="344" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577463435477" />
+    <state width="1807" height="344" key="GridCell.Tab.0.right" timestamp="1577463435479">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577463392741" />
-    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1577463061525">
+    <state width="1807" height="344" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577463435479" />
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1577463436587">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577463061525" />
-    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1577463061525">
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577463436587" />
+    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1577463436586">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577463061525" />
-    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1577463061524">
+    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577463436586" />
+    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1577463436584">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577463061524" />
-    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1577463061525">
+    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577463436584" />
+    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1577463436587">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577463061525" />
+    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577463436587" />
     <state x="476" y="130" width="1024" height="845" key="SettingsEditor" timestamp="1577353383268">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -157,14 +155,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Proxy.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Cache.java</url>
           <line>42</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Client.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Proxy.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
