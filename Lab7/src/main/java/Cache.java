@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class Cache {
     private final ZContext zcon;
+    private ZMQ.Socket worker;
     private int leftBound;
     private int rightBound;
     private HashMap<Integer,String> cache;
@@ -17,7 +18,8 @@ public class Cache {
         Scanner in = new Scanner(System.in);
         leftBound = in.nextInt();
         rightBound = in.nextInt();
-        ZMQ.Socket worker = zcon.createSocket(SocketType.DEALER);
+        worker = zcon.createSocket(SocketType.DEALER);
+
     }
 
     public static void main(String args[]){
