@@ -78,6 +78,9 @@ public class Proxy{
 
     private void recieveGET(String[] data, ZMsg msg) {
         for (HashMap.Entry<ZFrame,Commutator> c : commutator.entrySet())
+            if (c.getValue().intersect(data[1])){
+
+        }
     }
 
     private void error(ZMQ.Socket socket, String error, ZMsg msg) {
