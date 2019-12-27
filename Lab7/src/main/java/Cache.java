@@ -67,6 +67,7 @@ public class Cache {
             int pos = Integer.parseInt(data[1]);
             String value = data[2];
             cache.put(pos,value);
+            msg.send(worker);
         }
     }
 
