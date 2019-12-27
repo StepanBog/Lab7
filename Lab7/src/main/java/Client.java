@@ -19,7 +19,9 @@ public class Client {
                 if (mes.contains("PUT") || mes.contains("GET")) {
                     zmesSend.add(mes);
                     zmesSend.send(socket);
+
                     ZMsg.recvMsg(socket);
+                    if ()
                     System.out.print("IN:" + zmesAns.popString());
                 } else {
                     System.out.println("error");
