@@ -71,7 +71,7 @@ public class Cache {
     }
 
     private void connect() {
-        worker.connect("tcp://localhost:5559");
+        worker.connect("tcp://localhost:5557");
         items = zcon.createPoller(1);
         items.register(worker, ZMQ.Poller.POLLIN);
     }

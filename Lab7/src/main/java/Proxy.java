@@ -111,7 +111,7 @@ public class Proxy{
     }
 
     private void bind() {
-        frontend.bind("tcp://localhost:5556");
+        frontend.bind("tcp://localhost:5555");
         backend.bind("tcp://localhost:5557");
     }
 
