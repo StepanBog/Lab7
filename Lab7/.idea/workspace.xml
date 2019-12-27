@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be4ba942-c4e8-4ce3-8bb7-ecaba5c5a973" name="Default Changelist" comment="" />
+    <list default="true" id="be4ba942-c4e8-4ce3-8bb7-ecaba5c5a973" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Proxy.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +41,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Proxy">
     <configuration name="Cache" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Cache" />
       <module name="Lab7" />
@@ -90,7 +93,7 @@
       <updated>1577193708821</updated>
       <workItem from="1577193713092" duration="1948000" />
       <workItem from="1577350781218" duration="3889000" />
-      <workItem from="1577467126871" duration="8472000" />
+      <workItem from="1577467126871" duration="8525000" />
     </task>
     <servers />
   </component>
@@ -110,22 +113,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1577464650680" />
-    <state width="1807" height="260" key="GridCell.Tab.0.bottom" timestamp="1577466438487">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1577466466187">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="260" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577466438487" />
-    <state width="1807" height="260" key="GridCell.Tab.0.center" timestamp="1577466438486">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577466466187" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1577466466185">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="260" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577466438486" />
-    <state width="1807" height="260" key="GridCell.Tab.0.left" timestamp="1577466438486">
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577466466185" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1577466466184">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="260" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577466438486" />
-    <state width="1807" height="260" key="GridCell.Tab.0.right" timestamp="1577466438486">
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577466466184" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1577466466186">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="260" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577466438486" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577466466186" />
     <state width="1807" height="260" key="GridCell.Tab.1.bottom" timestamp="1577466438488">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -163,16 +166,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/Cache.java</url>
           <line>62</line>
           <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Proxy.java</url>
-          <line>92</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Proxy.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

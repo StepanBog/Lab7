@@ -36,6 +36,7 @@ public class Proxy{
             }
             if (items.pollin(0)){
                 ZMsg msg = ZMsg.recvMsg(frontend);
+                System.out.println("Have msg from client");
                 if (msg != null)
                     handleClientPollin(msg);
                 else
