@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be4ba942-c4e8-4ce3-8bb7-ecaba5c5a973" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Proxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,7 @@
       <updated>1577193708821</updated>
       <workItem from="1577193713092" duration="1948000" />
       <workItem from="1577350781218" duration="3889000" />
-      <workItem from="1577467126871" duration="8553000" />
+      <workItem from="1577467126871" duration="8806000" />
     </task>
     <servers />
   </component>
@@ -157,11 +156,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Client.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Cache.java</url>
           <line>62</line>
