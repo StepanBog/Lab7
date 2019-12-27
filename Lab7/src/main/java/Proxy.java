@@ -44,7 +44,7 @@ public class Proxy{
             }
             if (items.pollin(1)){
                 ZMsg msg = ZMsg.recvMsg(backend);
-                System.out.println("Have msg from cache");
+          //      System.out.println("Have msg from cache");
                 if (msg != null)
                     handleDealerPollin(msg);
                 else
@@ -60,7 +60,7 @@ public class Proxy{
     private void handleDealerPollin(ZMsg msg) {
         String[] data = msg.getLast().toString().split(SPACE);
         if (msg.getLast().toString().contains("I_AM_ALIVE")) {
-            System.out.println("Have Alive msg ");
+      //      System.out.println("Have Alive msg ");
             if (!commutator.containsKey(msg.getFirst())) {
                 Commutator com = new Commutator(data[1], data[2], System.currentTimeMillis());
                 commutator.put(msg.getFirst().duplicate(), com);
