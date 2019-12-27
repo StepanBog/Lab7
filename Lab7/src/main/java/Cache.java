@@ -45,7 +45,8 @@ public class Cache {
             msg.send(worker);
         }
         if (data[0].equals("PUT")){
-            int pos = Integer.parseInt()
+            int pos = Integer.parseInt(data[1]);
+            int value = Integer
         }
     }
 
