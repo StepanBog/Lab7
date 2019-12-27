@@ -55,7 +55,7 @@ public class Cache {
 
     private void handleDealer() {
         ZMsg msg = ZMsg.recvMsg(worker);
-        ZFrame content = msg.getFirst();
+        ZFrame content = msg.getLast();
         String[] data = content.toString().split(SPACE);
         if (data[0].equals("GET")){
             int pos = Integer.parseInt(data[1]);
