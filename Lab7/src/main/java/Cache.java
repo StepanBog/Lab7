@@ -42,7 +42,7 @@ public class Cache {
             items.poll();
             if (System.currentTimeMillis() - time > EPSILON_TIME){
                 ZMsg msg = new ZMsg();
-                msg.add("I AM ALIVE " + leftBound + " " + rightBound);
+                msg.add("I_AM_ALIVE " + leftBound + " " + rightBound);
                 msg.send(worker);
             }
             if(items.pollin(0))
