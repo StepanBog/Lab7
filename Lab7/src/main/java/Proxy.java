@@ -92,7 +92,7 @@ public class Proxy{
                 ZFrame cache = c.getKey().duplicate();
                 mes.addFirst(cache);
                 mes.send(backend);
-                System.out
+                System.out.println(mes);
             }
         }
     }
