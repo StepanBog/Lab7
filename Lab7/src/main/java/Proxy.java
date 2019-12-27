@@ -47,7 +47,7 @@ public class Proxy{
     }
 
     private void deleteDead() {
-        commutator.entrySet().
+        commutator.entrySet().removeIf(com ->Ma)
     }
 
     private void handleDealerPollin(ZMsg msg) {
