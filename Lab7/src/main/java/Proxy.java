@@ -9,6 +9,7 @@ public class Proxy{
     private ZMQ.Socket backend;
     private ZContext zcon;
     private HashMap<ZFrame,Commutator> commutator;
+    private long time;
 
     public Proxy(ZContext zcon) {
         this.zcon = zcon;
@@ -23,7 +24,7 @@ public class Proxy{
         items.register(frontend, ZMQ.Poller.POLLIN);
         items.register(backend, ZMQ.Poller.POLLIN);
         boolean more = false;
-         time = System.currentTimeMillis();
+        time = System.currentTimeMillis();
         while (!Thread.currentThread().isInterrupted()){
             items.poll();
             if ((System.currentTimeMillis() -time > EPSILON_TIME) && (!commutator.isEmpty()))
