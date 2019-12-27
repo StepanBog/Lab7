@@ -39,7 +39,7 @@ public class Cache {
     private void handler() {
         long time = System.currentTimeMillis();
         while (!Thread.currentThread().isInterrupted()){
-            items.poll();
+            items.poll(1);
             if (System.currentTimeMillis() - time > EPSILON_TIME){
                 ZMsg msg = new ZMsg();
                 msg.add("I_AM_ALIVE " + leftBound + " " + rightBound);
