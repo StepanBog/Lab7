@@ -52,7 +52,8 @@ public class Proxy{
                 commutator.get(msg.getFirst().duplicate()).setTime(System.currentTimeMillis());
             }
         } else {
-            msg.poll()
+            msg.pop();
+            msg.send(worker);
         }
     }
 
