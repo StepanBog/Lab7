@@ -1,3 +1,4 @@
+import org.zeromq.SocketType;
 import org.zeromq.ZContext;
 import org.zeromq.ZMQ;
 
@@ -16,7 +17,8 @@ public class Cache {
         Scanner in = new Scanner(System.in);
         leftBound = in.nextInt();
         rightBound = in.nextInt();
-        ZMQ.Poller worker = ZMQ.
+        ZMQ.Socket worker = zcon.createSocket(SocketType.DEALER);
+
     }
 
     public static void main(String args[]){
