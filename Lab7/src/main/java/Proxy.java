@@ -26,7 +26,8 @@ public class Proxy{
         long time = System.currentTimeMillis();
         while (!Thread.currentThread().isInterrupted()){
             items.poll();
-            if ((System.currentTimeMillis() -time > EPSILON_TIME))
+            if ((System.currentTimeMillis() -time > EPSILON_TIME) && (!commutator.isEmpty()))
+                deleteDead();
             if (items.pollin(0)){
                 ZMsg msg = ZMsg.recvMsg(frontend);
                 if (msg != null)
@@ -42,6 +43,9 @@ public class Proxy{
                     break;;
             }
         }
+    }
+
+    private void deleteDead() {
     }
 
     private void handleDealerPollin(ZMsg msg) {
