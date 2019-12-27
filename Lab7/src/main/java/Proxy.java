@@ -5,14 +5,14 @@ import org.zeromq.ZMsg;
 
 import java.util.HashMap;
 
-public class Server {
+public class Proxy{
     private static final String SPACE = " ";
     private ZMQ.Socket frontend;
     private ZMQ.Socket backend;
     private ZContext zcon;
     private HashMap<> commutator;
 
-    public Server(ZContext zcon) {
+    public Proxy(ZContext zcon) {
         this.zcon = zcon;
         this.frontend = this.zcon.createSocket(SocketType.ROUTER);
         this.backend = this.zcon.createSocket(SocketType.ROUTER);
@@ -79,7 +79,7 @@ public class Server {
 
     public static void main(String[] args){
         ZContext zcon = new ZContext();
-        Server server = new Server(zcon);
+        Proxy server = new Proxy(zcon);
     }
 
 }
