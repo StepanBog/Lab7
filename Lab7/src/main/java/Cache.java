@@ -22,6 +22,7 @@ public class Cache {
         for (int i = leftBound; i <= rightBound; i++)
             cache.put(i,Integer.toString(i));
         worker = zcon.createSocket(SocketType.DEALER);
+        worker.setHWM(0);
 
     }
 
