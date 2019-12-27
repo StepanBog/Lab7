@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 public class Proxy{
     private static final String SPACE = " ";
+    private static final long EPSILON_TIME = 5000;
     private ZMQ.Socket frontend;
     private ZMQ.Socket backend;
     private ZContext zcon;
