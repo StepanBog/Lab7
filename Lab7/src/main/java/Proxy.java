@@ -77,6 +77,7 @@ public class Proxy{
     }
 
     private void recieveGET(String[] data, ZMsg msg) {
+        for ()
     }
 
     private void error(ZMQ.Socket socket, String error, ZMsg msg) {
