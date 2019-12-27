@@ -1,6 +1,4 @@
-import org.zeromq.SocketType;
-import org.zeromq.ZContext;
-import org.zeromq.ZMQ;
+import org.zeromq.*;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -28,18 +26,21 @@ public class Cache {
         try{
             ZContext zcon = new ZContext();
             Cache cache = new Cache(zcon);
-            connect();
-            handler();
+            cache.connect();
+            cache.handler();
         } catch (Exception e){
             System.out.print(e.toString());
         }
     }
 
     private void handler() {
+        ZMsg msg = ZMsg.recvMsg(worker);
+        ZFrame content
     }
 
     private void connect() {
         worker.connect("tcp://localhost:5559");
-        ZMQ.Poller items =z
+        ZMQ.Poller items = zcon.createPoller(1);
+        items.register(worker, ZMQ.Poller.POLLIN);
     }
 }
