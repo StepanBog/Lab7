@@ -75,8 +75,14 @@ public class Proxy{
     private void handleClientPollin(ZMsg msg) {
         String[] data = msg.getLast().toString().split(SPACE);
         switch (data[0]){
-            case "PUT" : recievePUT(data,msg);
-            case "GET" : recieveGET(data,msg);
+            case "PUT" : {
+                recievePUT(data,msg);
+                break;
+            }
+            case "GET" : {
+                recieveGET(data,msg);
+                break;
+            }
             default : {
                 error(frontend,"error",msg);
             }
