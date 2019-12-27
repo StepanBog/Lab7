@@ -88,7 +88,7 @@ public class Proxy{
     private void recievePUT(String[] data, ZMsg msg) {
         for (HashMap.Entry<ZFrame,Commutator> c: commutator.entrySet()) {
             if (c.getValue().intersect(data[1])){
-                ZMsg mes = 
+                ZMsg mes = msg.duplicate();
             }
         }
     }
