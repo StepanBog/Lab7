@@ -23,7 +23,7 @@ public class Proxy{
         items.register(frontend, ZMQ.Poller.POLLIN);
         items.register(backend, ZMQ.Poller.POLLIN);
         boolean more = false;
-        long time = System.currentTimeMillis();
+         time = System.currentTimeMillis();
         while (!Thread.currentThread().isInterrupted()){
             items.poll();
             if ((System.currentTimeMillis() -time > EPSILON_TIME) && (!commutator.isEmpty()))
