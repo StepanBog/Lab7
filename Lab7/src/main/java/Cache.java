@@ -45,6 +45,7 @@ public class Cache {
                 ZMsg msg = new ZMsg();
                 msg.add("I_AM_ALIVE " + leftBound + " " + rightBound);
                 msg.send(worker);
+                time = System.currentTimeMillis();
             }
             if(items.pollin(0))
                 handleDealer();
