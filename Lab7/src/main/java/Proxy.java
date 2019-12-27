@@ -77,10 +77,12 @@ public class Proxy{
         String[] data = msg.getLast().toString().split(SPACE);
         switch (data[0]){
             case "PUT" : {
+                System.out.println("Have put mes");
                 recievePUT(data,msg);
                 break;
             }
             case "GET" : {
+                System.out.println("Have get mes");
                 recieveGET(data,msg);
                 break;
             }
