@@ -26,7 +26,7 @@ public class Proxy{
         boolean more = false;
         time = System.currentTimeMillis();
         while (!Thread.currentThread().isInterrupted()){
-            items.poll();
+            items.poll(1);
             if ((System.currentTimeMillis() -time > EPSILON_TIME) && (!commutator.isEmpty()))
                 deleteDead();
             if (items.pollin(0)){
