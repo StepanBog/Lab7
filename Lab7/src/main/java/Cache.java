@@ -18,7 +18,6 @@ public class Cache {
         leftBound = in.nextInt();
         rightBound = in.nextInt();
         ZMQ.Socket worker = zcon.createSocket(SocketType.DEALER);
-
     }
 
     public static void main(String args[]){
