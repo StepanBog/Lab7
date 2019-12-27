@@ -1,4 +1,5 @@
 import org.zeromq.ZContext;
+import org.zeromq.ZMQ;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -8,14 +9,14 @@ public class Cache {
     private int leftBound;
     private int rightBound;
     private HashMap<Integer,String> cache;
-    
+
     public Cache(ZContext zcon) {
         this.zcon = zcon;
         cache = new HashMap<>();
         Scanner in = new Scanner(System.in);
         leftBound = in.nextInt();
         rightBound = in.nextInt();
-
+        ZMQ.Poller worker = ZMQ.
     }
 
     public static void main(String args[]){
