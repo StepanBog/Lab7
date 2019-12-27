@@ -39,7 +39,10 @@ public class Cache {
         ZFrame content = msg.getFirst();
         String[] data = content.toString().split(SPACE);
         if (data[0].equals("GET")){
-            int pos = data[1].to;
+            int pos = Integer.parseInt(data[1]);
+            msg.pollLast();
+            msg.add(cache.get(pos));
+            msg.send(worker);
         }
         if (data[0].equals("PUT")){
 
